@@ -1,0 +1,45 @@
+SET PATH=E:\Keil_v5\ARM\ARMCLANG\Bin;D:\Python310\Scripts\;D:\Python310\;E:\cuda\bin;E:\cuda\libnvvp;E:\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\jdk-11.0.15.1\bin;D:\jdk-11.0.15.1\jre\bin;D:\Git\bin;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\NoteBook FanControl\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\nodejs\;E:\微信web开发者工具\dll;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.1.0\;D:\Python310;D:\Python310\Scripts;E:\openocd-0.12.0\bin;E:\gcc-arm-none-eabi-10.3-2021.10\bin;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;C:\Users\lenovo\.dotnet\tools;D:\IntelliJ IDEA 2022.2.2\bin;;C:\Users\lenovo\AppData\Roaming\npm;E:\CLion\bin;
+SET ARMCC6_ASMOPT=--diag_suppress=9931
+SET ARMCC6_CCOPT=--diag_suppress=9931
+SET ARMCC6_LINKOPT=--diag_suppress=9931
+SET CPU_TYPE=GD32F450ZG
+SET CPU_VENDOR=GigaDevice
+SET UV2_TARGET=Target 1
+SET CPU_CLOCK=0x00B71B00
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_it.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\main.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\systick.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_adc.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_can.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_crc.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_ctc.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_dac.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_dbg.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_dci.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_dma.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_enet.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_exmc.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_exti.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_fmc.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_fwdgt.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_gpio.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_i2c.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_ipa.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_iref.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_misc.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_pmu.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_rcu.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_rtc.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_sdio.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_spi.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_syscfg.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_timer.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_tli.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_trng.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_usart.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\gd32f4xx_wwdgt.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\startup_gd32f450_470._ac"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\system_gd32f4xx.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\blink.__i"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\ArmLink" --Via ".\Objects\GD32F450.lnp"
+"E:\Keil_v5\ARM\ARMCLANG\Bin\fromelf.exe" ".\Objects\GD32F450.axf" --i32combined --output ".\Objects\GD32F450.hex"
